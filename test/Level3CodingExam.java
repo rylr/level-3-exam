@@ -40,7 +40,7 @@ public class Level3CodingExam {
 
 		assertEquals("TIE", new VoteProcessor().calculateElectionWinner(votes));
 	}
-
+	
 	/** 
 	 * PART B
 	 * 
@@ -62,7 +62,8 @@ public class Level3CodingExam {
 		hashmap2.put("Ricardo", "Superb");
 		hashmap2.put("Tam", "Fine");
 		hashmap2.put("Bob", "Happy");
-
+		
+		
 		assertEquals(2, new HashMapCalculator().commonKeyValuePairs(hashmap1, hashmap2));
 	}
 }
